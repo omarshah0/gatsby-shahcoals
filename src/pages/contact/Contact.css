@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap");
+.contact {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact h1 {
+  margin-bottom: 4rem;
+}
+
+.contact-phone h2 {
+  font-family: "Coda Caption", sans-serif;
+  color: #111d5e;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  .contact {
+    margin: 0;
+    width: 100%;
+    padding: 2rem 0 5rem;
+  }
+  .contact-box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .contact-box h3 {
+    margin-top: 4rem;
+  }
+  .contact-box .contact-phone h2 {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */
