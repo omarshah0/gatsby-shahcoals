@@ -1,0 +1,13 @@
+.mobile-menu-btn {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.mobile-menu-btn .hamburger {
+  background-color: black;
+  height: 5px;
+  width: 30px;
+  margin: 6px 0;
+  display: block;
+}
+/*# sourceMappingURL=MobileHeader.css.map */

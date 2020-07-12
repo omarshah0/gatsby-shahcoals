@@ -59,7 +59,7 @@ function Body() {
             clarificValue="7300 - 7600"
           />
         </div>
-        <Link exact to="/products">
+        <Link to="/products">
           <button className="btn">More Products</button>
         </Link>
       </section>

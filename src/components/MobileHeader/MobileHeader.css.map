@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,IAAI;CAQlB;;AAVD,AAGE,gBAHc,CAGd,UAAU,CAAC;EACT,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,KAAK;CACf",
+    "sources": [
+        "MobileHeader.scss"
+    ],
+    "names": [],
+    "file": "MobileHeader.css"
+}

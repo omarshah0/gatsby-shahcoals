@@ -5,24 +5,31 @@ import { Link } from "gatsby"
 import "./Header.css"
 
 function Header() {
-
   return (
     <header>
-      <Link to="/" >
+      <Link to="/">
         <div className="brand-logo"></div>
       </Link>
       <ul className="navbar">
         <li className="nav-items">
-          <Link to="/" activeClassName="active">Home</Link>
+          <Link to="/" activeClassName="active">
+            Home
+          </Link>
         </li>
         <li className="nav-items">
-          <Link to="/about" activeClassName="active">About</Link>
+          <Link to="/about" activeClassName="active">
+            About
+          </Link>
         </li>
         <li className="nav-items">
-          <Link to="/products" activeClassName="active">Prodcuts</Link>
+          <Link to="/products" activeClassName="active">
+            Prodcuts
+          </Link>
         </li>
         <li className="nav-items">
-          <Link to="/contact" activeClassName="active">Contact</Link>
+          <Link to="/contact" activeClassName="active">
+            Contact
+          </Link>
         </li>
       </ul>
     </header>
